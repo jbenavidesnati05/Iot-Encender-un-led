@@ -9,9 +9,9 @@ void turnOnLed(){
 
   digitalWrite(amarillo, LOW);
   delay(500); 
-  digitalWrite(amarillo, HIGH); 
-  delay(500); 
   digitalWrite(azul, LOW);
+  delay(500); 
+  digitalWrite(amarillo, HIGH); 
   delay(500); 
   digitalWrite(azul, HIGH); 
   delay(500); 
